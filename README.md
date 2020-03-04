@@ -1,2 +1,3 @@
 # using-conditional-tokens-workshop
-Using Conditional Tokens, a Remix Workshop
+
+Using Conditional Tokens, an EthCC3 workshop.
