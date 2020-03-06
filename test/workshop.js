@@ -57,7 +57,7 @@ contract('Using Conditional Tokens', function([, alice, bob, carol, dan]) {
     expect(conditionId2)
       .to.equal('0xc81a9ddad1487a1bbd634ba14789d0dd937c31553f2dca36bacc86f63a10f192');
     expect(await conditionalTokens.getOutcomeSlotCount(conditionId1))
-      .to.be.bignumber.equal('2');
+      .to.be.bignumber.equal('3');
     expect(await conditionalTokens.getOutcomeSlotCount(conditionId2))
       .to.be.bignumber.equal('2');
   });
